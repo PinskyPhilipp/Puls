@@ -1,7 +1,13 @@
-*{
-    font-family: Museo Sans Cyrl, Sans Serif;
+@import 'base/variables';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
 }
-.title{
-    color:red;
-    font-weight: 100;
+.container{
+    max-width: 950px;
+    margin: 0 auto;
 }
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
